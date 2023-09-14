@@ -2,6 +2,7 @@ body {
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin:0;
 }
 
 .section-1 {
@@ -182,4 +183,69 @@ button {
     font-style:italic;
     font-size:36px;
     color:#1F2937;
+}
+
+.section-4 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:100%;
+    height:25%;
+    flex-basis: 100%;
+    margin-bottom:50px;
+}
+
+.container-action-button {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:700px;
+    height:70px;
+    border-radius:4px;
+    background-color: #3882F6;
+    margin:50px auto 50px auto;
+    padding:8px;
+}
+
+.action{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width:450px;
+    height:100px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.h3-section-4 {
+    color:white;
+    margin-bottom:0;
+}
+
+.subtext-action {
+    color:#E5E7EB;
+    margin-top:0;
+}
+
+.button-action {
+    border-color: white;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    width:100%;
+    height:25%;
+    flex-basis: 100%;
+}
+
+footer > p {
+    color:white;
+    font-size:36px;
 }
